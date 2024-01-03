@@ -6,7 +6,7 @@ dayjs.locale(localeSettings);
 
 $(function () {
   // TODO: Add code to apply the past, present, or future class to each time block by comparing the id to the current hour.
-  // The function below will get the hour of the day by using the dayjs library.
+  // The function below will get the hour of the day by using the day.js library.
   const currentHour = dayjs().hour();
 
   function hourlyColor() {
