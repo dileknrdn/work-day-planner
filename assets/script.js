@@ -5,6 +5,7 @@ const localeSettings = {};
 dayjs.locale(localeSettings);
 // Wait until the DOM is fully loaded before executing the code inside the function.
 $(function () {
+  // TODO: Add code to apply the past, present, or future class to each time block by comparing the id to the current hour.
   // Get the current hour of the day using the dayjs library.
   const currentHour = dayjs().hour();
 
@@ -12,17 +13,15 @@ $(function () {
     $(".time-block").each(function () {
       const blockHour = $(this).attr("id").split("-")[1];
       console.log(blockHour, currentHour);
-      if(blockHour < currentHour){
-        $(this).addClass("past")
-      }
-      else if(blockHour == currentHour){
-        $(this).removeClass("past")
-        $(this).addClass("present")
-      }
-      else{
-        $(this).removeClass("past")
-        $(this).removeClass("present")
-        $(this).addClass("future")
+      if (blockHour < currentHour) {
+        $(this).addClass("past");
+      } else if (blockHour == currentHour) {
+        $(this).removeClass("past");
+        $(this).addClass("present");
+      } else {
+        $(this).removeClass("past");
+        $(this).removeClass("present");
+        $(this).addClass("future");
       }
     });
   }
@@ -36,8 +35,6 @@ $(function () {
       localStorage.setItem(key, value);
     });
   }
-  // TODO: Add code to apply the past, present, or future class to each time block by comparing the id to the current hour.
-
 
   // TODO: Add code to get any user input that was saved in localStorage and set the values of the corresponding textarea elements.
   // This will get the user input from the localStorage and set textarea values for each time block.
@@ -48,7 +45,7 @@ $(function () {
   });
 
   // TODO: Add code to display the current date in the header of the page.
-  // you can find this among the header of the page!
+  // You can find this section in the header of the page!
 
   function updateTime() {
     const dateElement = $("#date");
