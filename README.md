@@ -33,7 +33,7 @@ Images folder.
 The Work-Day-Planner app will be your biggest helper in planning your work day. This application features save the time slot so you can keep tracking and manage your time without delays. Starting from 9:00AM to 5:00PM you will be able to see and manage your appointments or events during the day. 
 
 
-<img src="./assets/images/work-day-planner.png">
+<img src="./assets/images/work-day-planner.png"> 
 
 
 ## Deployment Link
@@ -46,3 +46,7 @@ https://dileknrdn.github.io/work-day-planner/
 Dilek Nuredin 
 
 https://github.com/dileknrdn 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d619cb9 (added depoyment link to readme file)
