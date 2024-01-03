@@ -35,6 +35,8 @@ The Work-Day-Planner app will be your biggest helper in planning your work day. 
 
 <img src="./assets/images/work-day-planner.png"> 
 
+<img src="./assets/images/work-day-planner-2.png">
+
 
 ## Deployment Link
 
