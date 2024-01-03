@@ -46,7 +46,3 @@ https://dileknrdn.github.io/work-day-planner/
 Dilek Nuredin 
 
 https://github.com/dileknrdn 
-<<<<<<< HEAD
-=======
-
->>>>>>> d619cb9 (added depoyment link to readme file)
