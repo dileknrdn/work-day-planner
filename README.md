@@ -38,8 +38,11 @@ The Work-Day-Planner app will be your biggest helper in planning your work day. 
 
 ## Deployment Link
 
-
+https://dileknrdn.github.io/work-day-planner/ 
 
 
 ## Author 
 
+Dilek Nuredin 
+
+https://github.com/dileknrdn 
