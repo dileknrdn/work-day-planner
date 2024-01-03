@@ -3,10 +3,10 @@
 // in the html.
 const localeSettings = {};
 dayjs.locale(localeSettings);
-// Wait until the DOM is fully loaded before executing the code inside the function.
+
 $(function () {
   // TODO: Add code to apply the past, present, or future class to each time block by comparing the id to the current hour.
-  // Get the current hour of the day using the dayjs library.
+  // The function below will get the hour of the day by using the dayjs library.
   const currentHour = dayjs().hour();
 
   function hourlyColor() {
@@ -37,7 +37,7 @@ $(function () {
   }
 
   // TODO: Add code to get any user input that was saved in localStorage and set the values of the corresponding textarea elements.
-  // This will get the user input from the localStorage and set textarea values for each time block.
+  // This function will get the user input from the localStorage and set textarea values for each time block.
   $(".time-block").each(function () {
     const key = $(this).attr("id");
     const value = localStorage.getItem(key);
